@@ -46,7 +46,8 @@
                 <p class="section-label">About Me</p>
                 <h2>Who I Am as a Developer</h2>
                 <p>
-                    Replace this paragraph with your developer story. You might discuss what led you to programming, the types of problems you enjoy solving, and how your skills have grown during the program.
+                    I am a Game Development student at Full Sail University with hands-on experience developing C++
+                    applications using object-oriented programming. I have always wanted to be in the game industry ever since I was young and i am in the process of making that dream come true
                 </p>
 
                 <div class="skills-grid">
@@ -54,15 +55,13 @@
                         <h3>Languages</h3>
                         <p>C++, HTML, CSS</p>
                     </article>
-
+                    <article class="info-card">
+                        <h3>Concepts</h3>
+                        <p>Classes and objects, header/source files, vectors, loops, functions, input validation, debugging</p>
+                    </article>
                     <article class="info-card">
                         <h3>Tools</h3>
-                        <p>Visual Studio, Git, GitHub</p>
-                    </article>
-
-                    <article class="info-card">
-                        <h3>Current Focus</h3>
-                        <p>Object-oriented programming, debugging, and clean code</p>
+                        <p>Visual Studio, Git, GitHub (branches, pull requests, Projects board and Issues)</p>
                     </article>
                 </div>
             </div>
@@ -78,59 +77,80 @@
 
                 <div class="project-grid">
                     <article class="project-card">
-                        <img src="images/project-placeholder.svg" alt="Placeholder screenshot for Project One">
+                        <img src="images/dungeon-crawl-main-menu.png"
+                             alt="Main menu of the Dungeon Crawler C++ console game">
                         <div class="project-content">
                             <p class="project-type">C++ Console Application</p>
-                            <h3>Project One Title</h3>
+                            <h3>Dungeon Crawler</h3>
                             <p>
-                                Write a brief overview of the project. Explain the purpose of the program and what the user can do with it.
+                                Dungeon Crawler is a text-based C++ game where the player moves through
+                                a dungeon, faces encounters, fights enemies, and uses healing potions to
+                                survive while working toward completing the game. I built it to practice
+                                organizing a larger program into separate classes and functions, and to
+                                improve the player experience by testing edge cases.
                             </p>
 
-                            <h4>Key Features</h4>
+                            <h4>Major Features</h4>
                             <ul>
-                                <li>Describe one major feature.</li>
-                                <li>Describe another major feature.</li>
-                                <li>Describe your input validation or menu system.</li>
+                                <li>Interactive menu with a help screen</li>
+                                <li>Turn-based combat against enemies</li>
+                                <li>Healing potions the player can use during the game</li>
+                                <li>win/lose ending</li>
                             </ul>
+
+                            <h4>Tools and Technologies</h4>
+                            <p>C++, Visual Studio, Git, GitHub (branches, pull requests, Projects board and Issues), object-oriented programming</p>
+
+                            <h4>Development Challenge</h4>
+                            <p>
+                                My menu broke when a player typed a letter or symbol where the game
+                                expected a number. The input stream went into a failed state, and the
+                                menu looped endlessly because every following read failed too. It was
+                                hard to find because the game worked normally with valid input.
+                            </p>
 
                             <h4>What I Learned</h4>
                             <p>
-                                Explain one challenge you faced, how you solved it, and what you learned from the process.
+                                I learned how to break a larger game into smaller classes and functions
+                                so the code stays organized, and how testing edge cases exposes problems
+                                I would not have found by playing normally. [Add one more thing: GitHub
+                                workflow, planning with weekly milestones, etc.]
                             </p>
 
                             <div class="project-links">
-                                <a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>
-                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
+                                <a class="text-link" href="[YOUR PROJECT REPO URL]" target="_blank" rel="noopener">View Repository</a>
+                                <a class="text-link" href="[YOUR YOUTUBE URL]" target="_blank" rel="noopener">Watch Demo</a>
                             </div>
                         </div>
                     </article>
 
                     <article class="project-card">
-                        <img src="images/project-placeholder.svg" alt="Placeholder screenshot for Project Two">
                         <div class="project-content">
-                            <p class="project-type">Additional Project</p>
-                            <h3>Project Two Title</h3>
+                            <p class="project-type">Previous Project · C++ Console Application</p>
+                            <h3>Inventory &amp; Crafting System</h3>
                             <p>
-                                Duplicate this card when you are ready to add more work. Replace all placeholder text, links, and images before submitting.
+                                A console-based C++ application where players manage a grid-based
+                                inventory and craft items from raw materials. I built it with four
+                                classes (Item, Inventory, Recipe, and Player) to practice
+                                object-oriented design and separation of concerns.
                             </p>
 
                             <h4>Key Features</h4>
                             <ul>
-                                <li>Describe one major feature.</li>
-                                <li>Describe another major feature.</li>
-                                <li>Describe a technical improvement.</li>
+                                <li>Grid-based inventory management</li>
+                                <li>Crafting logic that turns raw materials into items</li>
+                                <li>Input validation, debugging, and testing</li>
                             </ul>
 
                             <h4>What I Learned</h4>
                             <p>
-                                Explain how this project demonstrates your growth as a developer.
+                                This project strengthened my use of classes and separating
+                                responsibilities. I also built a separate SDL graphics visualizer,
+                                which gave me experience with inheritance, abstract classes,
+                                pointers, and memory management.
                             </p>
-
-                            <div class="project-links">
-                                <a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>
-                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
-                            </div>
                         </div>
+                    </article>
                     </article>
                 </div>
             </div>
